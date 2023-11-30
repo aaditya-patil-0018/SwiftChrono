@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-div{
+    text-align: center;
+}
+
+.option-div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopwatch-option,
+.timer-option{
+    flex: 1;
+    background-color: rgb(68, 68, 68);
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.stopwatch-option:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.timer-option:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+#input-div{
+    display: none;
+}
+
+.inputTimer{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    width: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 1%;
+}
+
+#timer{
+    font-size: 120px;
+}
+
+button{
+    margin-top: 10%;
+    border: none;
+    background-color: rgb(0, 160, 0);
+    height: 32px;
+    width: 72px;
+    border-radius: 4px;
+}

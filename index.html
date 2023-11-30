@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Swift Chrono</title>
+</head>
+<body>
+    <div class="main-div">
+        <h2>SwiftChrono</h2>
+        <div class="option-div">
+            <div class="stopwatch-option" id="stopwatchOption" onclick="stopwatchSelect()">
+                Stopwatch
+            </div>
+            <div class="timer-option" id="timerOption" onclick="timerSelect()">
+                Timer
+            </div>
+        </div>
+        <div class="timer-div">
+            <h1 id="timer">00:00:00</h1>
+        </div>
+        <div id="input-div">
+            <input type="number" class="inputTimer" id="hour" placeholder="Hour">
+            <input type="number" class="inputTimer" id="minute" placeholder="Minutes">
+            <input type="number" class="inputTimer" id="second" placeholder="Seconds">
+        </div>
+        <br>
+        <button onclick="start()">Start</button>
+    </div>
+</body>
+</html>
